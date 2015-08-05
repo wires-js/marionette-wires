@@ -1,0 +1,32 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: normal 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.greeting {
+  text-align: center;
+  margin: 100px 0 200px;
+}
+
+.greeting h1 {
+  margin: 20px 0 10px;
+  font-size: 5.25em;
+  line-height: 1;
+  font-weight: 500;
+  color: #d9534f;
+}
+
+.greeting p {
+  margin: 0 0 10px;
+  font-size: 1.75em;
+  line-height: 1;
+  font-weight: 200;
+  color: #555;
+}

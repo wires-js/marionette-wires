@@ -1,0 +1,27 @@
+{
+  "name": "marionette-wires",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "watchify app/app.js -o app/bundle.js & browser-sync start --files \"app/*\" --server app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wires-js/marionette-wires.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wires-js/marionette-wires/issues"
+  },
+  "homepage": "https://github.com/wires-js/marionette-wires#readme",
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "watchify": "^3.3.1"
+  },
+  "dependencies": {
+    "backbone.marionette": "^2.4.2",
+    "jquery": "^2.1.4"
+  }
+}
